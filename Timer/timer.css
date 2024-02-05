@@ -1,0 +1,30 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      background-color: #defe0b; 
+    }
+
+    #stopwatch {
+      font-size: 2em;
+      color: #333;
+    }
+
+    button {
+      font-size: 1em;
+      margin: 10px;
+      padding: 8px 16px;
+      cursor: pointer;
+      background-color: #f76d18;
+      color: white; 
+      border: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease; 
+    }
+
+    button:hover {
+      background-color: rgb(71, 108, 226);
+    }
